@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Cyril François Sophie Mathieu'
+__author__ = 'Cyril François'
 
 import pandas as pd
 import numpy as np
@@ -26,7 +26,11 @@ mergeRatings = pd.merge(pd.merge(users, ratings), movies)
 def cloneDF(df):
     return pd.DataFrame(df.values.copy(),
                         df.index.copy(),
+<<<<<<< HEAD
                         df.columns.copy()).apply(pd.to_numeric, errors = 'coerce')
+=======
+
+>>>>>>> 1c50f64b287614f2e8d998f443b5d25e30ad3e5e
 
 
 # Show Films with more votes. (groupby + sorted)
