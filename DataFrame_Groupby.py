@@ -1,4 +1,3 @@
-#!/home/campus-10/anaconda3/bin/python
 # -*- coding: utf-8 -*-
 __author__ = 'Cyril François'
 
